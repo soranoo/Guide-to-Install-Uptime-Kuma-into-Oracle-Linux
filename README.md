@@ -16,7 +16,7 @@ This guide also works for other CentOS~
 
    ### Basic Setup
 
-   [![image](docs\imgs\basic-config.png)](docs\imgs\basic-config.png)
+   [![image](docs/imgs/basic-config.png)](docs\imgs\basic-config.png)
 
    Please feel free to adjust the setup to your needs.
 
@@ -25,14 +25,14 @@ This guide also works for other CentOS~
    The instance needs to be reachable from the internet.
 
    You have to create a new virtual cloud network (VCN) with a public subnet and a public IP address if you don't have one yet. Just like the following:
-   [![image](docs\imgs\networking-config.png)](docs\imgs\networking-config.png)
+   [![image](docs/imgs/networking-config.png)](docs/imgs/networking-config.png)
 
    ### SSH Key
 
    You need to create a new SSH key pair or use an existing one. You can find a guide [here](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/creatingkeys.htm).
 
    In this guide I will use the key OCI created.
-   [![image](docs\imgs\ssh-setup.png)](docs\imgs\ssh-setup.png)
+   [![image](docs/imgs/ssh-setup.png)](docs/imgs/ssh-setup.png)
    Please don't forget to download the private key and save it in a safe place. You will need it later.
 
    ### Create Instance
@@ -41,7 +41,7 @@ This guide also works for other CentOS~
 
    ### Here is my setup (Reference Only)
 
-   [![image](docs\imgs\my-setup.png)](docs\imgs\my-setup.png)
+   [![image](docs/imgs/my-setup.png)](docs/imgs/my-setup.png)
 
 2. Setup Virtual Cloud Network(VCN) Security List
 
@@ -54,7 +54,7 @@ This guide also works for other CentOS~
    | No | CIDR | 0.0.0.0/0 | TCP | All | 3001 | Uptime Kuma Default Port |
 
    Result:
-   [![image](docs\imgs\ingress-rules-setup.png)](docs\imgs\ingress-rules-setup.png)
+   [![image](docs/imgs/ingress-rules-setup.png)](docs/imgs/ingress-rules-setup.png)
 
 3. Connect to the instance
 
