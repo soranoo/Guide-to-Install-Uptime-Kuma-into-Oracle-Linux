@@ -133,3 +133,4 @@ This guide also works for other CentOS~
 
 1. [Install Docker Engine on CentOS](https://docs.docker.com/engine/install/centos/)
 2. [docker/docker-compose.yml](https://github.com/louislam/uptime-kuma/blob/master/docker/docker-compose.yml)
+3. [Reset Uptime Kuma admin Password in Linux](https://lindevs.com/reset-uptime-kuma-admin-password-in-linux)
